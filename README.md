@@ -13,4 +13,3 @@
 ## Контакти
 - Email: irinaonofreiciuc2@gmail.com
 - GitHub: [Моя сторінка](https://github.com/OnofreichukIryna)
-
