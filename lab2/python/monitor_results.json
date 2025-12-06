@@ -1,0 +1,23 @@
+[
+    {
+        "timestamp": "2025-12-06T21:28:07.897253",
+        "url": "https://www.google.com",
+        "status": "UP",
+        "code": 200,
+        "latency": 0.746
+    },
+    {
+        "timestamp": "2025-12-06T21:28:09.119795",
+        "url": "https://www.github.com",
+        "status": "UP",
+        "code": 200,
+        "latency": 1.222
+    },
+    {
+        "timestamp": "2025-12-06T21:28:10.039740",
+        "url": "https://httpstat.us/404",
+        "status": "DOWN",
+        "code": 0,
+        "latency": 0.92
+    }
+]

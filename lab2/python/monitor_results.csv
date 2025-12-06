@@ -1,0 +1,4 @@
+timestamp,url,status,code,latency
+2025-12-06T21:28:07.897253,https://www.google.com,UP,200,0.746
+2025-12-06T21:28:09.119795,https://www.github.com,UP,200,1.222
+2025-12-06T21:28:10.039740,https://httpstat.us/404,DOWN,0,0.92
