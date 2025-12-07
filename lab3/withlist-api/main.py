@@ -52,7 +52,13 @@ app.add_middleware(
 )
 
 REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379")
-redis_client = redis.from_url(REDIS_URL, decode_responses=True)
+
+# ВИПРАВЛЕННЯ: Додаємо ssl_cert_reqs=None, щоб Upstash працював стабільно
+redis_client = redis.from_url(
+    REDIS_URL, 
+    decode_responses=True, 
+    ssl_cert_reqs=None
+)
 # ssl_cert_reqs="none" - Disable SSL certificate verification for Upstash
 
 
