@@ -1,0 +1,61 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.db
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+
+# FastAPI / Uvicorn
+*.log
+
+# Alembic
+alembic/*.pyc
+alembic/__pycache__/
+alembic/versions/__pycache__/
+
+# Do NOT ignore migrations (keep alembic/versions/*.py)
+
+# Environment variables
+*.env
+
+# Byte-compiled / packaged
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Tests / Coverage
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# mypy / type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyCharm
+*.iml
+out/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+*.DS_Store
