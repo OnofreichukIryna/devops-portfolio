@@ -115,6 +115,8 @@ async def create_new_wishlist(
 
     redis_client.delete("all_wishlists")
 
+    redis_client.delete(f"user_{current_user.id}_wishlists")
+
     return new_wishlist
 
 
